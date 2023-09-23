@@ -1,0 +1,130 @@
+body {                        /*body tag to target entire body*/
+    background: lightblue;  /*background color of light blue to entire*/
+    margin: 1rem 1rem;        /*margins of 1rem for body*/
+}
+
+p {                      /*p tag to target all paragraphs*/
+    font-family: arial;  /*changing font to arial for readability*/
+    text-align: left;    /*aligning all the text to the left*/
+}
+
+h1 {                                             /*h1 tag to target all h1 headers*/
+    text-align: center;                          /*centering all h1 headers*/
+    text-shadow: 2px 2px 7px rgb(56, 1, 158);  /*applying a purple text shadow to main H1 header*/
+}
+
+h3 {                             /*h3 tag to target all h3 headers*/
+    text-align: center;          /*centering all h3 headers*/
+    text-decoration: underline;  /*underlining all h3 headers*/
+    font-weight: bold;           /*bolding all h3 headers*/
+}
+
+h4 {                             /*targeting all h4 headers*/
+    text-decoration: underline;  /*underlining all h4 headers */
+}
+
+.ListP {               /*targeting list paragraph class*/
+    font-weight: bold; /*applying bold to all list paragraphs*/
+}
+
+.ChadBio {             /*targeting chad's bio class*/
+    display: flex;     /*applying flexbox*/
+    align-items: center; /*aligning items to the center*/
+    flex-direction: row; /*applying flex direction of a row*/
+    justify-content: space-between; /*spacing items evenly along the main row by adding space in between*/
+}
+
+.BioHeader {                    /*targeting bio header class*/
+    flex-grow: 1;               /*setting flexgrow to 1 so text will consume all available space equally*/
+    text-align: center;         /*aligning text to center*/
+    text-decoration: underline; /*underlining text*/
+}
+
+.BioText {        /*targeting bio text class*/
+    flex-grow: 1; /*setting flexgrow to 1 so text will consume all available space equally*/
+}
+
+.ChadImage {                                        /*targeting chadimage class to apply universal image styling*/
+  margin: 1rem;                                     /*setting margin for 1 rem*/
+  border-radius: 1rem;                              /*creating curved edges with border radius of 1rem*/
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5); /*setting a box shadow with pixels count for ofset, blur, spread and a color of black and .5 for half transparency*/  
+}
+
+#ChadChilling {              /*targeting specific image with id tag*/
+    display: flex;           /*Was having trouble getting these to center properly so I applied flex container to them*/
+    flex-direction: column;  /*setting direction to column*/
+    align-items: center;     /*aligning items vertically within the flexbox*/
+    justify-content: center; /*centering items horizontally within the column*/
+    text-align: center;      /*aligning the text to the center of the flexbox*/
+}
+
+#ChadEating {                /*targeting specific image with id tag*/
+    display: flex;           /*Was having trouble getting these to center properly so I applied flex container to them*/
+    flex-direction: column;  /*setting direction to column*/
+    align-items: center;     /*aligning items vertically within the flexbox*/
+    justify-content: center; /*centering items horizontally within the column*/
+    text-align: center;      /*aligning the text to the center of the flexbox*/
+}
+
+.Lists {                  /*targeting both lists with lists class*/
+    background: orange; /*setting a background color of orange*/
+    padding: 5px;         /*giving a padding of 5 pixels for readability*/
+}
+
+.Lists ul li,
+.Lists ol li {           /*targeting the unordered and ordered lists within my list class */
+    margin-bottom: 10px; /*setting a bottom margin of 10 pixels for readability*/
+}
+
+table, th, td {          /*targeting table, table header, and table data elements*/
+    border: 1px solid;   /*applying 1 pixel solid border*/
+}
+
+table {                        /*targeting table element*/
+    width: 100%;               /*setting with to 100% to take up all available space*/
+    border-collapse: collapse; /*using collapse to merge adjacent cell borders into a single border for table clarity*/
+}
+
+th {                                /*targeting table header*/
+    background-color: aquamarine; /*setting background color to aquamarine*/
+}
+
+td {                    /*targeting table data*/
+    text-align: center; /*centering table data text for readability*/
+}
+
+a:hover {                  /*using a pseudo class for HTML links*/
+    text-decoration: none; /*setting text decoration to none to remove underline effect when hovered*/
+    color: white;        /*setting text to white when hovered*/
+}
+
+#ContactUs {                /*targeting contact us ID to set properties for entire contact us section*/
+    display: flex;          /*setting to flexbox*/
+    flex-direction: column; /*setting direction to column*/
+    align-items: center;    /*aligning items vertically within the flexbox*/
+    justify-content: center;/*centering items horizontally within the column*/
+    text-align: center;     /*aligning the text to the center of the flexbox*/
+}
+
+input[type=text] {                                  /*targeting the text type within the input form*/
+    padding: 10px;                                  /*adding padding*/
+    margin: 10px 0;                                 /*adding margin to only top and bottom*/
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, .06);  /*adding a box shadow*/
+    border-radius: 10px;                            /*rounding the corners*/
+}
+
+input[type=submit] {                                /*targeting the submit button within the input form*/
+    padding: 10px;                                  /*adding padding*/
+    margin: 10px 0;                                 /*adding margin to only top and bottom*/
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, .06);  /*adding box shadow of black*/
+    border-radius: 10px;                            /*rounding the corners*/
+}
+
+input, textarea {                                   /*targeting input and text area*/
+    font-family: inherit;                           /*inheriting font type from parent elements for uniformity*/
+    font-size: inherit;                             /*inheriting font size from parent elements for uniformity*/
+}
+
+footer {                                            /*targeting footer*/
+    font-weight: bolder;                            /*setting footer font to bold*/
+}

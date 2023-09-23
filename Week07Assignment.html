@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>                                                                     <!--Doctype with Head info -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">               <!--Link to CSS style sheet-->
+</head>
+
+<body>                                                           <!--main body-->
+    <header>
+        <h1>The Feeding Routine of Chad (aka Mr. Chadman)</h1>    <!--Large H1 title in the header-->
+    </header>
+
+    <main>
+        <div class="ChadBio">  <!--Div with ChagBio class to set up flexbox for first section-->
+            <img class="ChadImage" src="Assets/ChadStroller.jpg" alt="ChadinStroller" height="400" width="200">  <!--first image with ChadImage class to apply all image CSS styling to every image-->
+            <div class="BioText">  <!--new div to apply styling to text within first flexbox-->
+                <div class="BioHeader">  <!--new class for just the header in order to center it properly within the flexbox-->
+                    <h2>Chad's Bio</h2>  <!--h2 header for bio-->
+                </div>
+                <p>Chad is a two year old black and white tuxedo cat who was adopted during pet adoption week 2023 from the Dumb Friends League in Denver Colorado. 
+                Since Chad's actual birthday is unknown, we have decided his birthday is going to be his adoption day of March 7th. 
+                Chad was neutered later in life compared to most cats, resulting in a thick neck and wide tomcat cheeks.  He is very affectionate and loves taking naps
+                in laps while receiving pets and chin scratches.  Like most pets, he is a very food driven animal.  Below we will list some of Chad's favorite foods
+                as well as provide a table of his feeding schedule.</p>  <!--Main paragraph for bio within first flexbox-->     
+            </div>                
+        </div>
+
+        <section>  <!--section tag for section with both unordered and ordered lists-->
+            <div id="ChadChilling"> <!--Div with ID tag for image-->
+                <img class="ChadImage" src="Assets/ChadChilling.jpg" alt="BigChillin" height="400" width="300">  <!--image with both class and ID tag to apply two different stylings-->
+            </div>
+
+            <h3>List of Some of the Brands of Food that Chad Enjoys</h3> <!--h3 header for first UL list-->
+                <p class="ListP">Chad enjoys a varied diet of both wet and dry cat foods.  Below is a list of some of the types he enjoyes in no particular order:</p>  <!--div with class for all list <p>-->
+                    <div class="Lists"> <!--div with class for all lists-->
+                        <ul> <!--unordered list-->
+                            <li>Hill's Science Diet Adult (dry)</li> <!--5 unordered list items-->
+                            <li>Sheba Cuts (wet)</li>
+                            <li>Reveal (wet)</li>
+                            <li>Earthborn (wet)</li>
+                            <li>Taste of the Wild (wet)</li>
+                        </ul>
+                    </div>
+            <h3>List of Chad's favorite snacks</h3> <!--h3 header for ordered list-->
+                <p class="ListP">Chad also enjoys having the occasional snack inbetween feedings. Below is an ordered list of his favorite snacks:</p> <!--div with class for all list <p>-->
+                    <div class="Lists"> <!--div with class for all lists-->
+                        <ol> <!--ordered list-->
+                            <li>Fancy Feast Savory Cravings Cat Chocolates</li> <!--6 ordered list items-->
+                            <li>Sheba Meaty Tender Sticks</li>
+                            <li>Temptations Mix Ups</li>
+                            <li>Sentry Calming Chews</li>
+                            <li>Greenies Dental Treats</li>
+                            <li>Hartz Hairball Plus Soft Chews</li>
+                        </ol>
+                    </div>            
+        </section>
+        
+        <aritcle> <!--article tag just to try out a different tag for Feeding schedule section-->
+            <div id="ChadEating"> <!--ID tag for specific styling-->
+                <img class="ChadImage" src="Assets/ChadEating.jpg" alt="ChadEeating" height="400" width="300"> <!--img with class tag for general image styling-->
+            </div>
+            <h3>Chad's Feeding Schedule</h3> <!--h3 header for Feeding schedule seciton-->
+                <p>Chad is fed dry food with an automatic feeder twice a day, as well as wet food manually by his owners twice a day.  We found that more frequent feedings <!--<p> section with no extra tags-->
+                    with lower portions reduced Chad's irritability as well as improved his energy levels throughout the day.  The automatic feeder also allows us to be more 
+                    consistant with Chad's feedings without it affecting our work and sleep schedules.  Below is a table of Chad's feeding schedule:
+                </p>
+            <div> <!--div for table section-->
+                <table> <!--table element-->
+                    <thead> <!--table head element-->
+                        <tr> <!--table head row-->
+                            <th>5:30am Feeding (automatic)</th> <!--four table headers-->
+                            <th>9:00am Feeding (manaual)</th>
+                            <th>5:00pm Feeding (automatic)</th>
+                            <th>7:30pm Feeding (manual)</th>
+                        </tr>
+                    </thead>
+                    <tbody> <!--table body-->
+                        <tr> <!--table body rows-->
+                            <td>1/4 cup of Hill's Science dry food</td> <!--4 table data elements-->
+                            <td>1 Serving tray of Sheba Cuts wet food</td>
+                            <td>1/4 cup of Hill's Science dry food</td>
+                            <td>1 Serving of Sheba/Reveal/Earthborn/Taste of the Wild</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>    
+        </aritcle>
+        <hr> <!--Thematic break after table for clarity-->
+
+        <div> <!--new div for links-->
+            <h4>Additional Information and Links</h4> <!--h4 for links title-->
+            <a href="AdditionalPictures.html">More Pictures</a><br> <!--a hrefs for all 3 page links-->
+            <a href="ContactUs.html">Contact Us</a><br>
+            <a href="Week07Assignment.html">Main Page</a>
+        </div>
+
+        <section> <!--new section for form-->
+            <h4>To Subscribe to more Chad news please submit your email below</h4> <!--h4 title for form-->
+                <div class="EmailForm"> <!--div with class for email form-->
+                    <form> <!--form element-->
+                        <input type="text" name="Email Address" placeholder="YourEmail@domain.com"> <br> <!--input form with text type name and placeholder-->
+                        <input type="submit" value="Submit"> <!--input form with submit type and submit value-->
+                    </form>
+                </div>    
+        </section>
+        
+    </main>
+
+    <hr><!--thematic break before footer section-->
+    <footer><!--footer element-->
+        <p>&copy; 2023</p> <!--footer paragraph with copywrite symbol and year-->
+    </footer>
+    
+</body>
+
+</html>
